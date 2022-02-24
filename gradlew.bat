@@ -38,7 +38,7 @@ set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
 
-set JAVA_EXE=java.exe
+set JAVA_EXE=X:\Common\~VSC\java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64\bin\java.exe
 %JAVA_EXE% -version >NUL 2>&1
 if "%ERRORLEVEL%" == "0" goto init
 
