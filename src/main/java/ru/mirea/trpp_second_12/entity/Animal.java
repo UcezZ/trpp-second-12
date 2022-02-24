@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.math.BigInteger;
+import java.math.BigDecimal;
 
 /** Сущность животного. */
 @Getter
@@ -31,4 +31,7 @@ public class Animal {
     @CsvBindByName(column = "life_time")
     private BigDecimal lifeTime;
 
+    public Long getId() {
+        return id;
+    }
 }
