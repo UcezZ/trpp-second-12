@@ -1,13 +1,13 @@
-package ru.mirea.trppsecond12.entity;
+package ru.mirea.trpp_second_12.entity;
 
-//import lombok.AllArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 /** Ответ на healthCheck. */
 @Getter
 @Setter
-// @AllArgsConstructor
+@AllArgsConstructor
 public class HealthResponse {
 
     /** Статус работы. */

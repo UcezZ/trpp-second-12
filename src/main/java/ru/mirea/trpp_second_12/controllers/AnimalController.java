@@ -1,4 +1,4 @@
-package ru.mirea.trppsecond12.controllers;
+package ru.mirea.trpp_second_12.controllers;
 
 import com.opencsv.bean.CsvToBeanBuilder;
 import io.micronaut.http.HttpResponse;
